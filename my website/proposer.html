@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rechercher</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device=width,initial=scale=1" >
+
+<link rel="icon" href="img/cropped-icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="img/cropped-icon-180x180" />
+<meta name="msapplication-TileImage" content="img/cropped-icon-270x270.png" />
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
+
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css\prop_rech_style.css">
+</head>
+<body>
+
+
+<!---------------------bar section------------------->
+
+	<section id="nav-bar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="autogo.html"><img src="img/autogo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <i class="fa fa-bars" aria-hidden="true"></i>
+
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="autogo.html">Acceuil </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="rechercher.html">Rechercher</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  href="proposer.html">Proposer un trajet</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="nav-link2" href="Inscription.html" >Inscription</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="nav-link2" href="Connexion.html" >Connexion</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+	</section>
+
+
+	<!-----------------prop section------------------->
+<section>
+	<div class="container">
+		<div class="content">
+      <form action="autogo.html">
+        <h1>Publier une annonce</h1>
+        <div class="loc_div">
+        <div class="input-div">
+              <div class="i" >
+                <i class="fas fa-map-marker-alt" ></i>
+              </div>
+
+          <div  class="div">
+            <h5>Départ</h5>
+            <input id="start" class="input" type="text" >
+
+          </div>
+        </div>
+        <div class="input-div one">
+          <div class="i">
+            <i class="fas fa-map-marker-alt" ></i>
+          </div>
+          
+          <div class="div">
+            <h5>Destination</h5>
+            <input id="end" class="input" type="text" >
+
+          </div>
+        </div>
+      </div>
+
+<div class="date-div"></div>
+      <div class="input-div one">
+          <div class="i">
+            <i class="fas fa-calendar-day" ></i>
+          </div>
+          <div class="div">
+            
+            <input class="input_date" type="date"  >
+          </div>
+    
+        </div>
+
+
+
+
+        
+      <div class="loc_div">
+        
+          <div class="date-div">
+          <label class="div">Heure</label>   
+           <select class="div" name="h:">
+            <option>00</option>
+            <option>01</option>
+            <option>02</option>
+            <option>03</option> 
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+            <option>08</option>
+            <option>09</option> 
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option> 
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option> 
+            <option>22</option>
+            <option>23</option>
+      
+      
+      </select> 
+
+      </div>
+
+        <div class="date-div">
+          
+      <label class="div">Minute</label>   
+         <select class="div" name="min">
+          <option>00</option>
+          <option>10</option>
+          <option>20</option>
+          <option>30</option> 
+          <option>40</option>
+          <option>50</option>
+          
+      
+      </select>
+      
+        </div>
+      </div>
+ 
+
+
+
+        <div class="input-div one">
+          <div class="i">
+            <i class="fas fa-money-bill-alt" ></i>
+          </div>
+          <div class="div">
+            <h5>Prix</h5>
+            <input class="input" type="text" >
+          </div>
+        </div>
+
+
+     <div class="nb">
+     <div class="i">
+            <i class="fas fa-users" ></i>
+          </div>
+          <div>  
+      <label class="A1">Nombre de places</label>
+     <select name="Nombre de places">
+      
+      <option>1</option>
+      <option>2</option>
+      <option>3</option> 
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      
+      </select>
+      </div>   
+      </div>
+      <div class="comment">
+        
+        <textarea class="comment-input" rows="5" cols="20">Commentaire</textarea>
+        
+      </div>
+<input type="submit" class="btn" value="Publier" href="#">
+      </form>
+    
+		
+
+
+
+
+		</div>		
+		<div class="map">
+      <div id="map"></div>
+      
+			<script>
+      function initMap() {
+        var directionsService = new google.maps.DirectionsService;
+        var directionsDisplay = new google.maps.DirectionsRenderer;
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 7,
+          center: {lat: 41.85, lng: -87.65}
+        });
+        directionsDisplay.setMap(map);
+
+        var onChangeHandler = function() {
+          calculateAndDisplayRoute(directionsService, directionsDisplay);
+        };
+        document.getElementById('start').addEventListener('change', onChangeHandler);
+        document.getElementById('end').addEventListener('change', onChangeHandler);
+      }
+
+      function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+        directionsService.route({
+          origin: document.getElementById('start').value,
+          destination: document.getElementById('end').value,
+          travelMode: 'DRIVING'
+        }, function(response, status) {
+          if (status === 'OK') {
+            directionsDisplay.setDirections(response);
+          } else {
+            window.alert('Directions request failed due to ' + status);
+          }
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+			
+		</div>
+    
+	</div>
+
+
+
+
+
+</section>
+<script type="text/javascript" src="js/main.js"></script> 
+</body>
+</html>
